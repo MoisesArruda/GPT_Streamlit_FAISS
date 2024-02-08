@@ -8,6 +8,9 @@ FROM python:3.10.10
 # Expoção da porta 8501.
 EXPOSE 8501
 
+RUN apt update
+RUN apt install -y build-essential grc
+
 # Instrução: COPY
 # Argumentos: . /app
 # Define o diretório de trabalho como /app. Todos os comandos subsequentes serão executados nesse diretório.
