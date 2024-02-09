@@ -6,7 +6,9 @@ Este projeto tem o objetivo de recriar um chatbot baseado em modelo de linguagem
 
 ## Instalação e Configuração
 
-1. Clone o repositório:
+Siga estes passos para configuração e uso da aplicação.
+
+1. Clone o repositório do projeto para sua máquina local:
 
 ```bash
 git clone https://github.com/MoisesArruda/GPT_Streamlit_FAISS
