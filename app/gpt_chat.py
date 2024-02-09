@@ -9,7 +9,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.vectorstores import FAISS
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.chains import LLMChain
-from class_gpt import GPTConfig,PromptChunks,VectorStoreMemory
+from app.class_gpt import GPTConfig,PromptChunks,VectorStoreMemory
 load_dotenv()
 
 def gpt_input():
@@ -34,7 +34,7 @@ def gpt_anwser(query=None,db=None):
     return response
 
 
-db = gpt_input()
-print(gpt_anwser("O que é o Docker?",db))
+#db = gpt_input()
+#print(gpt_anwser("O que é o Docker?",db))
 
 
