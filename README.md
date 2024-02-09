@@ -60,4 +60,8 @@ streamlit run main.py
 http://localhost:8501/
 ```
 
-![Docker ChatBot]()
+![Docker ChatBot](https://github.com/MoisesArruda/GPT_Streamlit_FAISS/blob/main/data/images/docker_chatbot.png)
+
+## Contato
+Para dúvidas, sugestões ou feedbacks:
+* **Moisés Arruda** - moises_arruda@outlook.com
